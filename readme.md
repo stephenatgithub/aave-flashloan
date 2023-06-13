@@ -26,6 +26,7 @@ aave-v3-core/
 --private-key <your_private_key> src/SimpleFlashLoan.sol:SimpleFlashLoan 
 --constructor-args <PoolAddressesProvider-Aave>`
 
+==Never keep funds permanently on your FlashLoanReceiverBase contract as they could be exposed to greifing attack where the stored funds are used by an attacker.==
 
 ## Testnet Faucet 
 
